@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Etch-A-Sketch</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<div id="head">
+		<h2>Etch-A-Sketch</h2>
+	</div>
+
+	<div class="container">
+		<div id="sidebar">
+			<div class="buttons">
+				<button type="button" id="button-brush">Brush</button>
+				<button type="button" id="button-eraser">Eraser</button>
+				<button type="button" id="button-reset">Reset</button>
+			</div>
+			<div class="scroll">
+				<div class="scroll-head"></div>
+				<input type="range" id="scroller" min="1" max="64" value="32">
+			</div>
+		</div>
+		<div id="grid-container">
+
+		</div>
+	</div>
+</body>
+</html>
